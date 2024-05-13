@@ -6,7 +6,7 @@ Os projetos estão hospedados em spaces no Hugging Face, pois lá estamos utiliz
 
 O Gen3d acontece em 3 etapas:
 
-1° [Aidiffusion](https://huggingface.co/spaces/Mathdesenvnonimate/aidiffusion) - Aqui geramos as imagens que iremos transformar em modelos 3d, no caso abaixo ela foi otimizada com Lora para gerar bonecos FunkoPOP, para modificar LORA é só alterar o código com o modelo que voce queira e que também esteja hospedado no hugging face. Essa etapa é opcional, pois caso voce já tenha a imagem que voce queira transformar, pule para a etapa 2.
+1° [Aidiffusion](https://huggingface.co/spaces/Mathdesenvnonimate/aidiffusion) - Aqui geramos as imagens que iremos transformar em modelos 3d, no caso do link disponivel aqui ela foi otimizada com Lora para gerar bonecos FunkoPOP, para modificar LORA é só alterar o código com o modelo que voce queira e que também esteja hospedado no hugging face. Essa etapa de gerar imagens é opcional, pois caso voce já tenha a imagem que voce queira transformar, pule para a etapa 2.
 
 2° [LGM](https://huggingface.co/spaces/Mathdesenvnonimate/LGM) - Aqui a imagem que voce já tenha, ou tenha gerado, voce sobe e irá gerar um video 3D para visualização prévia, caso fique ruim voce tem a possibilidade de fazer um ajuste fino a partir da adição de um prompt, prompt negativo, barra de elevação, passos de inferencia e seeds aleatoria.
 
