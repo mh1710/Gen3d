@@ -2,7 +2,7 @@
 
 Meu nome é [Matheus](https://www.linkedin.com/in/dev-matheus-henrique) e venho aqui apresentar meu ultimo projeto. O Gen3d consiste em 3 ferramentas que em um futuro próximo serão unidas para melhorar a experiencia do usuário, se quiser unir fique a vontade ou se quiser fazer uma parceria para codarmos junto, entre em contato com meu email e linkedin na página inicial.
 
-Os projetos estão hospedados em spaces no Hugging Face, pois lá estamos utilizando a placa de vídeo Nvidia A100 de forma gratuita através de Gradio APP, entre nos links abaixo e testem. Fique a vontade também para alterar o codigo da maneira que achar mais útil.
+Os projetos estão hospedados em spaces no Hugging Face, pois lá estou utilizando a placa de vídeo Nvidia A100 de forma gratuita através de Gradio APP, entre nos links abaixo e testem. Fique a vontade também para alterar o codigo da maneira que achar mais útil.
 
 O Gen3d acontece em 3 etapas:
 
