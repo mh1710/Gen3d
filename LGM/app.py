@@ -235,13 +235,12 @@ with block:
             with gr.Tab("Video"):
                 # final video results
                 output_video = gr.Video(label="video")
-                # ply file
-                output_file = gr.File(label="3D Gaussians (ply formato)")
+                
             with gr.Tab("Multi-view Image"):
                 # multi-view results
                 output_image = gr.Image(interactive=False, show_label=False)
 
-        button_gen.click(process, inputs=[input_image, input_text, input_neg_text, input_elevation, input_num_steps, input_seed], outputs=[output_image, output_video, output_file])
+        button_gen.click(process, inputs=[input_image, input_text, input_neg_text, input_elevation, input_num_steps, input_seed], outputs=[output_image, output_video])
 
     gr.Examples(
         examples=[
@@ -253,7 +252,7 @@ with block:
             "data_test/gso_rabbit.jpg",
         ],
         inputs=[input_image],
-        outputs=[output_image, output_video, output_file],
+        outputs=[output_image, output_video],
         fn=lambda x: process(input_image=x, prompt=''),
         cache_examples=True,
         label='Image-to-3D Examples'
@@ -270,7 +269,7 @@ with block:
 
         ],
         inputs=[input_text],
-        outputs=[output_image, output_video, output_file],
+        outputs=[output_image, output_video],
         fn=lambda x: process(input_image=None, prompt=x),
         cache_examples=True,
         label='Text-to-3D Exemplos'
